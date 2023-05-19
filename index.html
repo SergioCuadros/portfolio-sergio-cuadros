@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergio Cuadros</title>
+    <!--=================== Google Fonts ====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.svg">
+
+
+    <!--=================== Remixicons ====================-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=================== SwiperJS CSS ====================-->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  />
+
+
+    <!--=================== Main CSS ====================-->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <!--=================== Header ====================-->
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="nav__brand">
+                    <img src="img/logo.svg" alt="">
+                    <div class="nav__menu" id="nav-menu">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#hero" class="nav__link">Inicio</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#about" class="nav__link">Acerca de</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#qualification" class="nav__link">Experiencia y Educación</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#service" class="nav__link">Servicios</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#project" class="nav__link">Proyectos</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#contact" class="nav__link">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav__toggle">
+                        <i id="nav-toggle" class="ri-menu-3-line"></i>
+                    </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- PERFIL-->
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="d-grid hero__wrapper">
+                    <div class="hero__content">
+                        <h1 class="hero__title">¡Hola!, soy Sergio, <br>Web Developer</h1>
+                        <p class="hero__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+                            nesciunt ipsum qui in illum laborum quisquam. Expedita praesentium repudiandae
+                            necessitatibus a dolore aperiam labore facere ipsa, voluptas aut aspernatur veritatis?</p>
+                        <div class="hero__info">
+                            <div class="hero__info-wrapper">
+                                <a href="#" class="hero__info-number"><i class="ri-linkedin-box-fill"></i></a>
+                                <h2 class="hero__info-title">Linkendin</h2>
+                            </div>
+
+                            <div class="hero__info-wrapper">
+                                <a href="#" class="hero__info-number"><i class="ri-github-fill"></i></a>
+                                <h2 class="hero__info-title">Github</h2>
+                            </div>
+
+                            <div class="hero__info-wrapper">
+                                <a href="#" class="hero__info-number"><i class="ri-instagram-line"></i></i></a>
+                                <h2 class="hero__info-title">Instagram</h2>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <img src="img/hero.JPG" alt="Sergio" class="hero__img">
+                </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Acerca de</h2>
+                    <span class="section__subtitle">¿Quién soy?</span>
+                </div>
+                <div class="d-grid about__wrapper">
+                    <div class="about__content">
+                        <h3 class="about__title">Programador Web</h3>
+                        <p class="about__description">¡Hola, Soy Sergio!
+                            <br><br>
+                            Desde que empecé en el mundo de desarrollo he realizado trabajos a distancia para diferentes tipos de clientes y he colaborado para la creación de la imagen de marca de algunos.
+                            Soy una persona segura de sí misma, curiosa por naturaleza y siempre estoy trabajando para mejorar mis habilidades trabajando en equipo.
+                            Amante de la música, los deportes, autos y videojuegos :D.
+                            </p>
+                            <br>
+                        <a href="#" target="_blank" class="btn btn--primary">CV</a>
+                    </div>
+                    <div class="skills">
+                        <h3 class="skills__title">Tecnlogias con las que he trabajado</h3>
+                        <div class="skills__wrapper">
+                            <div class="skills__content">
+                                <h2 class="skills__subtitle">Backend</h2>
+                                <ul class="skills__list">
+                                    <li class="skills__item"><i class="ri-git-commit-line"></i>C#</li>
+                                    <li class="skills__item"><i class="ri-git-commit-line"></i>MySQL</li>
+                                    <li class="skills__item"><i class="ri-git-commit-line"></i>MongoDB</li>
+                                </ul>
+                            </div>
+                            <div class="skills__content">
+                                <h2 class="skills__subtitle">Frontend</h2>
+                                <ul class="skills__list">
+                                    <li class="skills__item"><i class="ri-git-commit-fill"></i>HTML</li>
+                                    <li class="skills__item"><i class="ri-git-commit-fill"></i>CSS</li>
+                                    <li class="skills__item"><i class="ri-git-commit-fill"></i>JavaScript</li>
+                                    <li class="skills__item"><i class="ri-git-commit-fill"></i>Bootstrap</li>
+                                    <li class="skills__item"><i class="ri-git-commit-fill"></i>TailwindCSS</li>
+                                    <li class="skills__item"><i class="ri-git-commit-fill"></i>React</li>
+                                    <li class="skills__item"><i class="ri-git-commit-fill"></i>VueJS</li>
+                                </ul>
+                            </div>
+                        </div>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ESTUDIOS Y EXPERIENCIA -->
+
+        <section id="qualification" class="section qualifiction">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Experiencia</h2>
+                    <span class="section__subtitle">Experiencia y Trabajos</span>
+                </div>
+
+                   <!-- EXPERIENCIA PROFESIONAL -->
+            <div class="qualification__wrapper">
+                <h3 class="qualification__name"><i class="ri-briefcase-4-fill"></i>Experiencia Profesional</h3>
+
+                <div class="d-grid qualification__content">
+                    <div class="qualification__item">
+                        <h3 class="qualification__title">Desarrollador C# en PlenumSoft (Servicio Social)</h3>
+                        <p class="qualification__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Provident molestias aperiam dignissimos similique. Architecto pariatur animi ad, quo
+                            reiciendis nemo.</p>
+                        <span class="qualification__date">Enero - Julio 2022</span>
+                    </div>
+
+                        <div class="qualification__item">
+                            <h3 class="qualification__title">Desarrollador C# en PlenumSoft (Servicio Social)</h3>
+                            <p class="qualification__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Provident molestias aperiam dignissimos similique. Architecto pariatur animi ad, quo
+                                reiciendis nemo.</p>
+                            <span class="qualification__date">Enero - Julio 2022</span>
+                        </div>
+            </div>
+
+            <!-- EDUCACION -->
+                        <div class="qualification__wrapper">
+                <h3 class="qualification__name"><i class="ri-briefcase-4-fill"></i>Experiencia Profesional</h3>
+
+                <div class="d-grid qualification__content">
+                    <div class="qualification__item">
+                        <h3 class="qualification__title">Desarrollador C# en PlenumSoft (Servicio Social)</h3>
+                        <p class="qualification__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Provident molestias aperiam dignissimos similique. Architecto pariatur animi ad, quo
+                            reiciendis nemo.</p>
+                        <span class="qualification__date">Enero - Julio 2022</span>
+                    </div>
+
+                        <div class="qualification__item">
+                            <h3 class="qualification__title">Desarrollador C# en PlenumSoft (Servicio Social)</h3>
+                            <p class="qualification__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Provident molestias aperiam dignissimos similique. Architecto pariatur animi ad, quo
+                                reiciendis nemo.</p>
+                            <span class="qualification__date">Enero - Julio 2022</span>
+                        </div>
+
+            </div>
+        </section>
+
+        <section id="service" class="section service">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Service</h2>
+                    <span class="section__subtitle">Que puedo hacer</span>
+                </div>
+
+                <div class="d-grid service__wrapper">
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-code-box-line"></i>
+                        </div>
+                        <h3 class="service__title">Desarrollo <br> Frontend</h3>
+                        <a href="" class="service__link">Mas</a>
+                    </div>
+
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-terminal-box-line"></i>
+                        </div>
+                        <h3 class="service__title">Desarrollo <br> Backend</h3>
+                        <a href="" class="service__link">Mas</a>
+                    </div>
+    
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-pen-nib-fill"></i>
+                        </div>
+                        <h3 class="service__title">UX/UI <br> Desing</h3>
+                        <a href="" class="service__link">Mas</a>
+                    </div>
+    
+                    <!-- <div class="service__card">
+                            <div class="service__icon">
+    
+                            </div>
+                            <h3 class="service__title"></h3>
+                            <a href="" class="service__link"></a>
+                        </div> -->
+    
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+
+        <section id="project" class="section project">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Proyectos</h2>
+                    <span class="section__subtitle">Proyectos que he trabajado</span>
+                </div>
+
+                <div class="d-grid project__wrapper">
+                    <div class="project__content">
+                        <img src="img/project1.jpg" alt="" class="project__img">
+                        <h3 class="project__title">Agency Website</h3>
+                        <p class="project__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
+                            nulla facere fugiat cum ratione laboriosam!</p>
+                        <a href="" class="project__link">Ver proyecto<i class="ri-arrow-right-line"></i></a>
+                    </div>
+
+                    <div class="project__content">
+                        <img src="img/project2.jpg" alt="" class="project__img">
+                        <h3 class="project__title">Agency Website</h3>
+                        <p class="project__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
+                            nulla facere fugiat cum ratione laboriosam!</p>
+                        <a href="" class="project__link">Ver proyecto<i class="ri-arrow-right-line"></i></a>
+                    </div>
+
+                    <div class="project__content">
+                        <img src="img/project3.jpg" alt="" class="project__img">
+                        <h3 class="project__title">Agency Website</h3>
+                        <p class="project__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
+                            nulla facere fugiat cum ratione laboriosam!</p>
+                        <a href="" class="project__link">Ver proyecto<i class="ri-arrow-right-line"></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- TESTIMONIALS -->
+
+        <!-- <section id="testimonial" class="section testimonial">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Testimonials</h2>
+                    <span class="section__subtitle">What my clients say</span>
+                </div>
+                <div class="testimonial__wrapper swiper">
+
+                    <div class="swiper-wrapper">
+                  
+                        <div class="testimonial__card swiper-slide">
+                            <img src="img/testimonial1.jpg" alt="Natasha Smith" class="testimonial__img">
+                            <div class="testimonial__content">
+                                <p class="testimonial__description">Lorem ipsum dolor sit amet consectetur. Dignissim
+                                    tincidunt egestas vitae porttitor nulla gravida commodo.</p>
+                                <h3 class="testimonial__name">Natasha Smith</h3>
+                                <span class="testimonial__occupation">UI/UX Designer at Dribbble</span>
+                            </div>
+                        </div>
+                    
+                        <div class="testimonial__card swiper-slide">
+                            <img src="img/testimonial2.jpg" alt="John Clarke" class="testimonial__img">
+                            <div class="testimonial__content">
+                                <p class="testimonial__description">Lorem ipsum dolor sit amet consectetur. Dignissim
+                                    tincidunt egestas vitae porttitor nulla gravida commodo.</p>
+                                <h3 class="testimonial__name">John Clarke</h3>
+                                <span class="testimonial__occupation">Web Developer at Facebook</span>
+                            </div>
+                        </div>
+          
+                        <div class="testimonial__card swiper-slide">
+                            <img src="Img/testimonial3.jpg" alt="Emily Walker" class="testimonial__img">
+                            <div class="testimonial__content">
+                                <p class="testimonial__description">Lorem ipsum dolor sit amet consectetur. Dignissim
+                                    tincidunt egestas vitae porttitor nulla gravida commodo.</p>
+                                <h3 class="testimonial__name">Emily Walker</h3>
+                                <span class="testimonial__occupation">Backend Developer at Google
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+    </section> -->
+
+            <!--=================== Contact ====================-->
+            <section id="contact" class="section contact">
+                <div class="container">
+                    <div class="d-grid contact__wrapper">
+                        <div class="contact__content">
+                            <h2 class="contact__title">Contacto</h2>
+                            <p class="contact__description">
+                                Estaría muy feliz de trabajar contigo :)
+                            </p>
+                        </div>
+                        <div class="contact__btn">
+                            <a href="#" class="btn btn--secondary">Contactame!</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="d-grid footer__wrapper">
+                <div class="footer__content">
+                    <h4 class="footer__title">Sigueme</h4>
+                    <ul class="footer__social-list">
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h4 class="footer__title">Correo</h4>
+                    <a href="#" class="footer__contact">sergiocuadros44@gmail.com</a>
+                </div>
+            </div>
+            <p class="footer__copyright">&copy; 2023 Sergio Cuadros. All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+    <!--=================== SwiperJS  ====================-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!--=================== ScrollReveal ==================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=================== Main JS ====================-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
