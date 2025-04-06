@@ -753,7 +753,7 @@ body {
 .tag {
   background-color: #2b2b2b;
   color: white;
-
+  margin-top: 5px;
   padding: 8px 12px;
   border-radius: 16px;
   font-size: 0.9rem;
